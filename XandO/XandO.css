@@ -1,0 +1,46 @@
+.square {
+
+    height           : 100px;
+    width            : 100px;
+    text-align       : center;
+    font-family      : Verdana;
+    font-size        : 40px;
+    font-weight      : bold;
+    border-color     : #8a2be2;
+    color            : #6e079b;
+    background-color : #a9a9a9;
+}
+
+.message {
+
+    font-family : Verdana;
+    color       : #9932cc;
+    text-align  : center;
+    font-weight : bold;
+}
+
+.game_header {
+
+    font-family : Verdana;
+    color       : #6e079b;
+}
+
+.restart {
+
+    font-family    : Verdana;
+    padding        : 20px;
+    width          : 200px;
+    margin-top     : 10px;
+    text-transform : uppercase;
+
+}
+
+.bigsquare {
+
+    margin : auto;
+}
+
+.whole {
+
+    text-align : center;
+}

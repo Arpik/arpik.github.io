@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+
+    <meta charset="UTF-8">
+
+    <title> X and O game </title>
+    <link rel="stylesheet" href="XandO.css">
+    <script src="XandO.js"></script>
+
+</head>
+
+<body onload = "startGame();" class="whole">
+
+<h1 class="game_header"> Lets Play X and O! </h1>
+
+<div id="message" class="message"> </div> <br>
+
+<table border="1" class="bigsquare">
+
+    <tr id="1t">
+        <td id = "s1" class = "square" onclick = "continueGame(this);"></td>
+        <td id = "s2" class = "square" onclick = "continueGame(this);"></td>
+        <td id = "s3" class = "square" onclick = "continueGame(this);"></td>
+        <td id = "s4" class = "square" onclick = "continueGame(this);"></td>
+    </tr>
+
+    <tr>
+        <td id = "s5" class = "square" onclick = "continueGame(this);"></td>
+        <td id = "s6" class = "square" onclick = "continueGame(this);"></td>
+        <td id = "s7" class = "square" onclick = "continueGame(this);"></td>
+        <td id = "s8" class = "square" onclick = "continueGame(this);"></td>
+    </tr>
+
+    <tr>
+        <td id = "s9" class = "square" onclick = "continueGame(this);"></td>
+        <td id = "s10" class = "square" onclick = "continueGame(this);"></td>
+        <td id = "s11" class = "square" onclick = "continueGame(this);"></td>
+        <td id = "s12" class = "square" onclick = "continueGame(this);"></td>
+    </tr>
+
+    <tr>
+        <td id = "s13" class = "square" onclick = "continueGame(this);"></td>
+        <td id = "s14" class = "square" onclick = "continueGame(this);"></td>
+        <td id = "s15" class = "square" onclick = "continueGame(this);"></td>
+        <td id = "s16" class = "square" onclick = "continueGame(this);"></td>
+    </tr>
+
+
+</table>
+
+<div>
+    <button id = "1" class="restart" onclick = "newGame()"> restart </button>
+</div>
+
+
+</body>
+
+</html>
